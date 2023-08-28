@@ -2,7 +2,7 @@
 
 # Image Classiﬁcation of Road Traﬃc Signs
 
-** 1. Abstract **
+**1. Abstract**
 
 The main objective of this report is showcase the study behind discovering the best ﬁtting
 
@@ -24,7 +24,7 @@ The model demonstrated a promising result with an accuracy of 81 %for shape clas
 
 source and real time clicks of victorian streets.
 
-\2. Introduction
+**2. Introduction**
 
 Road traﬃc sign classiﬁcation systems have multiple impact on large domains like autonomous
 
@@ -46,7 +46,7 @@ algorithm that facilitates deep learning. The data set provided is a modiﬁed v
 
 Traﬃc Sign Classiﬁcation Benchmark , containing 3699 traﬃc sign images.
 
-\3. Dataset
+**3. Dataset**
 
 The data is given in the.form of grey scale images which are 28x28 resized uniformly. The
 
@@ -94,15 +94,7 @@ directory consists of “oneway” image.This can cause false categorisation.
 
 
 
-
-
-Jewel James
-
-S3763905
-
-Page 2 of 8
-
-\4. Methodology
+**4. Methodology**
 
 Neural Network - In theory we can use neural network for classifying our road signals to
 
@@ -174,7 +166,7 @@ neuron. Both the linear parts of the relu combines to produce a non linear eﬀe
 
 will select the maximum value from the 2 dimensional region, thus reducing the dimention.
 
-\5. Modelling
+**5. Modelling**
 
 On intensive research the perfect method was found to be Yang et al. [4] as it just not classiﬁed
 
@@ -202,15 +194,6 @@ through the superclass of sub directory and importing raw data into shape\_data,
 
 the sign-shape features out.
 
-
-
-
-
-Jewel James
-
-S3763905
-
-Page 3 of 8
 
 Checking data uniformity - To check the uniformity of data we ﬁrst group the data using sign-
 
@@ -276,7 +259,7 @@ along in the plot. The f1-score accuracy showed an accuracy of 97% , and the con
 
 showed minimal false values.
 
-CNN Model
+**CNN Model**
 
 The Fig 6 shows the execution lane of a CNN model [7]. We are mainly using kernel 5\*5 and 3\*3
 
@@ -309,16 +292,6 @@ signal image.In the second layer convolution we do not do any pooling , but do a
 kernel mapping and note the kernel channel input received for this layer is 32 from the previous
 
 kernel selection.
-
-
-
-
-
-Jewel James
-
-S3763905
-
-Page 4 of 8
 
 In MLP We do “model\_cnn.add(Flatten())” to convert a 3d feature map to a 2d feature map. For
 
@@ -412,15 +385,7 @@ updates there conﬁguration.
 
 
 
-
-
-Jewel James
-
-S3763905
-
-Page 5 of 8
-
-CNN Model
+**CNN Model**
 
 The CNN model is used since weights to be calculated is huge and here we use the 5\*5 and 3\*3
 
@@ -472,7 +437,7 @@ yield a error rate because in sigmoid function for two different inputs a single
 
 thus it dent help in inbedding non linearity.
 
-\6. Ultimate Judgement
+**6. Ultimate Judgement**
 
 Using CNN we can ﬁnd better solution because when we use the convolution layers, it reduces the
 
@@ -506,21 +471,13 @@ kernels with 3\*3 kernels. Optimizer is SGD and relu is the embedded for non lin
 
 
 
-
-
-Jewel James
-
-S3763905
-
-Page 6 of 8
-
 for ﬂattening. The model gave a 98% f1-score accuracy index while training and predicting using
 
 test data as shown in ﬁg 8.1 and 8.2. The independent evaluation gave a result of 63% ﬁ-score
 
 index.
 
-\7. References
+**7. References**
 
 [1] R. Timofte, V. A. Prisacariu, L. J. Van Gool, and I. Reid, “Chapter 3.5: Combining traﬃc sign
 
