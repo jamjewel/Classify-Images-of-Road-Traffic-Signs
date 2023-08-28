@@ -1,14 +1,8 @@
-﻿
 
-Jewel James
 
-S3763905
+# Image Classiﬁcation of Road Traﬃc Signs
 
-Page 1 of 8
-
-Image Classiﬁcation of Road Traﬃc Signs
-
-\1. Abstract
+** 1. Abstract **
 
 The main objective of this report is showcase the study behind discovering the best ﬁtting
 
